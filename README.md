@@ -1,4 +1,4 @@
-# NextJS-course-2024
+# NextJS 14-Course-2024
 
 ## Routing
 
