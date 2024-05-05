@@ -2,7 +2,7 @@
 
 ## NextJS Routing
 
-git clone https://github.com/a8hok/React-5-in-1-2024.git
+``` git clone https://github.com/a8hok/React-5-in-1-2024.git ```
 
     cd Routing
 
