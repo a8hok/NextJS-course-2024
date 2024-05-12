@@ -2,3 +2,9 @@ node_modules
 dist
 .husky
 .vscode
+.next
+.cache
+package-lock.json
+public
+next-env.d.ts
+next.config.ts
