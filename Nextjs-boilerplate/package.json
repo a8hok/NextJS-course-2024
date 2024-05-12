@@ -8,8 +8,10 @@
     "start": "next start",
     "eslint": "next lint",
     "eslint:fix": "next lint --fix",
-    "prepare": "husky",
-    "type-check": "tsc --project tsconfig.json --noEmit"
+    "prepare": "husky install",
+    "pre-commit": "npm run eslint",
+    "type-check": "tsc --project tsconfig.json --noEmit",
+    "prettier": "prettier --write {app/**/*.tsx,app/**/*.ts}"
   },
   "dependencies": {
     "react": "^18",
