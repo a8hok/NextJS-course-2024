@@ -70,11 +70,10 @@
     // Configuration for testing
     {
       "files": ["**/*.test.ts", "**/*.test.tsx"],
-      "plugins": ["jest", "jest-formatting", "testing-library", "jest-dom"],
+      "plugins": ["jest", "jest-formatting", "jest-dom"],
       "extends": [
         "plugin:jest/recommended",
         "plugin:jest-formatting/recommended",
-        "plugin:testing-library/react",
         "plugin:jest-dom/recommended"
       ]
     },
@@ -82,19 +81,6 @@
     {
       "files": ["**/*.spec.ts"],
       "extends": ["plugin:playwright/recommended"]
-    },
-    // Configuration for Storybook
-    {
-      "files": ["*.stories.*"],
-      "extends": ["plugin:storybook/recommended"],
-      "rules": {
-        "import/no-extraneous-dependencies": [
-          "error",
-          {
-            "devDependencies": true
-          }
-        ]
-      }
     }
   ]
 }
