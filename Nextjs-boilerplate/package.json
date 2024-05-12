@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "eslint": "next lint",
+    "eslint:fix": "next lint --fix",
     "prepare": "git init && husky init",
     "type-check": "tsc --project tsconfig.json --noEmit"
-    
   },
   "dependencies": {
     "react": "^18",
