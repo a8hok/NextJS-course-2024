@@ -11,7 +11,7 @@
     "prepare": "husky",
     "pre-commit": "npm run eslint",
     "tsc": "tsc --project tsconfig.json --noEmit",
-    "prettier": "prettier --write \"src/**/*.{ts,tsx}\""
+    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
     "next": "14.2.3",
