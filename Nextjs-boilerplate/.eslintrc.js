@@ -21,9 +21,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
-    'plugin:react-hooks/recommended',
   ],
-  plugins: ['prettier', '@typescript-eslint', 'react', 'react-hooks'],
+  plugins: ['prettier', '@typescript-eslint', 'react'],
   rules: {
     // JavaScript rules
     'prefer-const': 'warn',
@@ -53,8 +52,6 @@ module.exports = {
         extensions: ['ts', 'tsx'],
       },
     ],
-    'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
-    'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'prettier/prettier': 'warn',
@@ -64,4 +61,5 @@ module.exports = {
       version: 'detect',
     },
   },
+  ignorePatterns: ['.eslintrc.js', 'next.config.js'],
 };
