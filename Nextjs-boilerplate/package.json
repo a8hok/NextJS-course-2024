@@ -8,7 +8,7 @@
     "start": "next start",
     "eslint": "eslint . --ext js,jsx,ts,tsx",
     "eslint:fix": "eslint . --ext js,jsx,ts,tsx --fix",
-    "prepare": "husky install",
+    "prepare": "husky",
     "pre-commit": "npm run eslint",
     "type-check": "tsc --project tsconfig.json --noEmit",
     "prettier": "prettier --write \"src/**/*.{ts,tsx}\""
