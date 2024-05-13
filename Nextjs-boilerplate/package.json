@@ -10,7 +10,7 @@
     "eslint:fix": "eslint . --ext js,jsx,ts,tsx --fix",
     "prepare": "husky",
     "pre-commit": "npm run eslint",
-    "type-check": "tsc --project tsconfig.json --noEmit",
+    "tsc": "tsc --project tsconfig.json --noEmit",
     "prettier": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
@@ -38,7 +38,6 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-simple-import-sort": "^12.1.0",
-    "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-tailwindcss": "^3.15.1",
     "eslint-plugin-unused-imports": "^3.2.0",
     "husky": "^9.0.11",
